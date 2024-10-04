@@ -57,7 +57,7 @@ SaveSeuratRds(Seu_Y, file = "Yoshihara_data.rds")
 ### Processing YANG DATA
 
 # set directory
-setwd("../../data/Yang data/")
+setwd("../Yang data/")
 
 # import list of cells
 lista <- read_tsv("list.txt")
@@ -108,4 +108,4 @@ Seu_Yang <- as.Seurat(sce)
 levels(Seu_Yang$orig.ident) <- "Yang Data"
 
 # Save seurat as rds
-SaveSeuratRds(Seu_Yang, file = "../Yand_data.rds")
+SaveSeuratRds(Seu_Yang, file = "Yang_data.rds")
