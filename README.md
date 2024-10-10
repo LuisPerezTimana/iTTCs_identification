@@ -49,5 +49,9 @@ The following outputs will be generated:
 
 ## Authors and Acknowledgments
 
-This project was conducted by .... . The data utilized in this project originates from the Yoshihara, Yang, and Cluster39 datasets.
+This project was conducted by .... . The data utilized in this project originates from the Yoshihara & Kere (2022), Yang (2013), and Cluster39 datasets.
 
+## Reference
+
+Masahito Yoshihara & Juha Kere (2022). Single-cell RNA-sequencing of transient DUX4-expressed human embryonic stem cells. BioStudies, E-MTAB-10581. Retrieved from https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10581
+Yan L, Yang M, Guo H, Yang L et al. Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells. Nat Struct Mol Biol 2013 Sep;20(9):1131-9. PMID: 23934149
