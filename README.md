@@ -54,4 +54,5 @@ This project was conducted by .... . The data utilized in this project originate
 ## Reference
 
 Masahito Yoshihara & Juha Kere (2022). Single-cell RNA-sequencing of transient DUX4-expressed human embryonic stem cells. BioStudies, E-MTAB-10581. Retrieved from https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10581
+
 Yan L, Yang M, Guo H, Yang L et al. Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells. Nat Struct Mol Biol 2013 Sep;20(9):1131-9. PMID: 23934149
