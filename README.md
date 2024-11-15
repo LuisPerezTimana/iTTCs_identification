@@ -1,6 +1,6 @@
 # scRNA-seq analysis for identification and characterization of transient totipotent-like cells during somatic cell reprogramming
 
-This project focuses on the preprocessing and integration of single-cell RNA sequencing (scRNA-seq) data. We analyzed data from multiple sources (Yoshihara data, Yang data, and cluster39) to generate integrated visualizations such as UMAP and Dotplot for specific gene expressions.
+This project focuses on the preprocessing and integration of single-cell RNA sequencing (scRNA-seq) data. We analyzed data from multiple sources (Table 1) to generate integrated visualizations such as UMAP and Dotplot for specific gene expressions.
 
 ## Project Structure
 
