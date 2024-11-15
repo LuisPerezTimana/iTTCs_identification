@@ -49,10 +49,15 @@ The following outputs will be generated:
 
 ## Authors and Acknowledgments
 
-This project was conducted by .... . The data utilized in this project originates from the Yoshihara & Kere (2022), Yang (2013), and Cluster39 datasets.
+This project was conducted by ESV. Integration analysis was performed by LAPT and guided by ESV. ESV and AS wrote the manuscript. AS supervised the study
+
+Funding Sources: This work was supported by the NIGMS/NIH through a Pathway to Independence Award K99GM126027/ R00GM126027 and Maximizing Investigator Award (R35GM147395), a start-up package from the University of California, Santa Cruz (S.A.S). E.S.V is supported by the National Institutes of Health (NIH) under award number K12GM139185 and the Institute for the Biology of Stem Cells (IBSC) at UC Santa Cruz.. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH or the IBSC. Technical support from Benjamin Abrams, UCSC Life Sciences Microscopy Center, RRID: SCR_021135.
 
 ## Reference
 
 Masahito Yoshihara & Juha Kere (2022). Single-cell RNA-sequencing of transient DUX4-expressed human embryonic stem cells. BioStudies, E-MTAB-10581. Retrieved from https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10581
 
+Nair, S., Ameen, M., Sundaram, L., Pampari, A., Schreiber, J., Balsubramani, A., Wang, Y. X., Burns, D., Blau, H. M., Karakikes, I., Wang, K. C., & Kundaje, A. (2023). Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency. bioRxiv (Cold Spring Harbor Laboratory). https://doi.org/10.1101/2023.10.04.560808
+
 Yan L, Yang M, Guo H, Yang L et al. Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells. Nat Struct Mol Biol 2013 Sep;20(9):1131-9. PMID: 23934149
+
