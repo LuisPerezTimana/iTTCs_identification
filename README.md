@@ -10,12 +10,11 @@ The project consists of two main scripts:
 
 ## Data
 
-We use the following datasets:
-- **Yoshihara Data**
-- **Yang Data**
-- **Cluster39**
-
-These datasets are loaded, filtered, and preprocessed before integration.
+| **Sample name**                                | **Description**                                                                 | **Accession number**       | **Citation**                                                                                                                                                                                                                            |
+|------------------------------------------------|---------------------------------------------------------------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cluster 39                                    | Totipotent-like cluster obtained from day 14 single cell RNA-seq               | GEO: GSE242424             | Nair et al. (2023). *Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency.* bioRxiv [Preprint]. doi: [10.1101/2023.10.04.560808](https://doi.org/10.1101/2023.10.04.560808). |
+| Early preimplantation human development dataset | scRNA-seq of early preimplantation human embryos                                | GEO: GSE36552              | Yan et al. (2013). *Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells.* Nat Struct Mol Biol. doi: [10.1038/nsmb.2660](https://doi.org/10.1038/nsmb.2660). PMID: 23934149.                                                        |
+| induced blastomere-like (iBM) cells [10X_12_possorted_genome_bam.bam] | Single cell RNA seq of iBM at 12h post 15min treatment with doxycycline to induce DUX4 in DUX4-TetOn hESCs | ARRAY_EXPRESS: E-MTAB-10581 | Yoshihara et al. (2022). *Transient DUX4 expression in human embryonic stem cells induces blastomere-like expression program that is marked by SLC34A2.* Stem Cell Reports. doi: [10.1016/j.stemcr.2022.06.002](https://doi.org/10.1016/j.stemcr.2022.06.002). |
 
 ## Requirements
 
