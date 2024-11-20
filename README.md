@@ -54,9 +54,9 @@ Funding Sources: This work was supported by the NIGMS/NIH through a Pathway to I
 
 ## Reference
 
-Masahito Yoshihara & Juha Kere (2022). Single-cell RNA-sequencing of transient DUX4-expressed human embryonic stem cells. BioStudies, E-MTAB-10581. Retrieved from https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10581
+Nair S, Ameen M, Sundaram L, Pampari A, Schreiber J, Balsubramani A, Wang YX, Burns D, Blau HM, Karakikes I, Wang KC, Kundaje A. Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency. bioRxiv [Preprint]. 2023 Oct 21:2023.10.04.560808. doi: 10.1101/2023.10.04.560808. PMID: 37873116; PMCID: PMC10592962.
 
-Nair, S., Ameen, M., Sundaram, L., Pampari, A., Schreiber, J., Balsubramani, A., Wang, Y. X., Burns, D., Blau, H. M., Karakikes, I., Wang, K. C., & Kundaje, A. (2023). Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency. bioRxiv (Cold Spring Harbor Laboratory). https://doi.org/10.1101/2023.10.04.560808
+Yan L, Yang M, Guo H, Yang L, Wu J, Li R, Liu P, Lian Y, Zheng X, Yan J, Huang J, Li M, Wu X, Wen L, Lao K, Li R, Qiao J, Tang F. Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells. Nat Struct Mol Biol. 2013 Sep;20(9):1131-9. doi: 10.1038/nsmb.2660. Epub 2013 Aug 11. PMID: 23934149.			
 
-Yan L, Yang M, Guo H, Yang L et al. Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells. Nat Struct Mol Biol 2013 Sep;20(9):1131-9. PMID: 23934149
+Yoshihara M, Kirjanov I, Nykänen S, Sokka J, Weltner J, Lundin K, Gawriyski L, Jouhilahti EM, Varjosalo M, Tervaniemi MH, Otonkoski T, Trokovic R, Katayama S, Vuoristo S, Kere J. Transient DUX4 expression in human embryonic stem cells induces blastomere-like expression program that is marked by SLC34A2. Stem Cell Reports. 2022 Jul 12;17(7):1743-1756. doi: 10.1016/j.stemcr.2022.06.002. Epub 2022 Jun 30. PMID: 35777358; PMCID: PMC9287684.			
 
