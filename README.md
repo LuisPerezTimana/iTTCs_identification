@@ -4,7 +4,8 @@ This project focuses on the preprocessing and integration of single-cell RNA seq
 
 ## Project Structure
 
-The project consists of two main scripts:
+The project consists of the following  main scripts:
+- **Nairetal_Cluster39_GSEA_ash.R**: performs dimensional reduction (UMAP) of Nair et al datases, performs sub clustering and isolates the cluster 39 for further integration
 - **preprocessing.R**: Preprocesses and cleans the input data from different sources.
 - **Integration.R**: Integrates the preprocessed data, performs dimensional reduction (UMAP), and generates visualizations of specific gene expressions.
 
