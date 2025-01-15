@@ -7,7 +7,7 @@ library(SingleCellExperiment)
 ### Processing Yoshihara data
 
 # Set directory
-setwd("../data/Yoshihara data/")
+setwd("data/Yoshihara data/")
 
 # Import counts H9
 counts <- read_tsv("E-MTAB-10581_raw-count.txt")
@@ -104,8 +104,8 @@ sce <- SingleCellExperiment(assays = list(counts = df_total), colData= lista)
 sce <- scuttle::logNormCounts(sce)
 
 # Create seurat object
-Seu_Yang <- as.Seurat(sce)
-levels(Seu_Yang$orig.ident) <- "Yang Data"
+Seu_Yan <- as.Seurat(sce)
+levels(Seu_Yan$orig.ident) <- "Yan Data"
 
 # Save seurat as rds
-SaveSeuratRds(Seu_Yang, file = "Yang_data.rds")
+SaveSeuratRds(Seu_Yan, file = "Yan_data.rds")
