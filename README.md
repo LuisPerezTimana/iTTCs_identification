@@ -30,7 +30,7 @@ The following R packages are necessary to run this project:
 ## Usage
 
 1. **Preprocessing**:
-   - Run `preprocessing.R` to load, filter, and preprocess the scRNA-seq data from Yoshihara, Yang, and Cluster39.
+   - Run `preprocessing.R` to load, filter, and preprocess the scRNA-seq data from Yoshihara, Yan, and Cluster39.
    - The script performs data cleaning, normalization, and transformation.
 
 2. **Integration and Visualization**:
