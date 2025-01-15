@@ -10,12 +10,12 @@ library(patchwork)
 set.seed(1)
 
 # set directory
-setwd("../Data")
+setwd("Data")
 
 
 ## Import datasets
 # Import cluster 39
-cluster39 <- readRDS("Cluster39/cluster39.rds")
+cluster39 <- readRDS("cluster39.rds")
 sce_cluster39 <- as.SingleCellExperiment(cluster39)
 
 # Rename assay
@@ -41,18 +41,18 @@ Yoshihara_iBM <- subset(Yoshihara, downsample = 25, subset = (cell_type == "iBM_
 Yoshihara_iBM@meta.data$cell_type = "Yoshihara_iBM"
 Yoshihara_primed <- subset(Yoshihara, downsample = 25, subset = (cell_type == "primed"))
 
-# Import Yang data
+# Import Yan data
 
-Yang <- readRDS("Yanga data/Yang_data.rds")
+Yan <- readRDS("Yanga data/Yang_data.rds")
 
 # Rename Morula
-Yang@meta.data$cell_type <- ifelse(Yang@meta.data$cell_type == "Morulae", "Morula", Yang@meta.data$cell_type)
+Yan@meta.data$cell_type <- ifelse(Yan@meta.data$cell_type == "Morulae", "Morula", Yan@meta.data$cell_type)
 
-table(Yang@meta.data$cell_type)
+table(Yan@meta.data$cell_type)
 
 
 # Integration dataset
-pbmc.combined <- merge(Yang, y = c(Seu_39, Yoshihara_iBM, Yoshihara_primed), add.cell.ids = c("Yang", "cluster39", "Yoshihara_iBM", "Yoshihara_primed"), project = "Integration")
+pbmc.combined <- merge(Yan, y = c(Seu_39, Yoshihara_iBM, Yoshihara_primed), add.cell.ids = c("Yan", "cluster39", "Yoshihara_iBM", "Yoshihara_primed"), project = "Integration")
 
 # Tranformar into object assay5
 pbmc.combined[["originalexp"]] <- as(object = pbmc.combined[["originalexp"]], Class = "Assay5")
